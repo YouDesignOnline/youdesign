@@ -27,5 +27,14 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/shoaib.zahir/.m2/repository/com/datastax/cassandra/cassandra-driver-core/2.1.9/cassandra-driver-core-2.1.9.jar" sourcepath="C:/Users/shoaib.zahir/.m2/repository/com/datastax/cassandra/cassandra-driver-core/2.1.9/cassandra-driver-core-2.1.9-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.datastax.cassandra"/>
+			<attribute name="maven.artifactId" value="cassandra-driver-core"/>
+			<attribute name="maven.version" value="2.1.9"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
