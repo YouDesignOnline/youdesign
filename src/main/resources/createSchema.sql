@@ -76,7 +76,7 @@ create table IF NOT EXISTS orders(
 	userid bigint(15) NOT NULL,
 	itemcode int(10)  NOT NULL,
 	quantity int(10),
-	price int(10),
+	price double(12,2),
 	standardsize varchar(10),
 	standardsubsize tinyint(2),
 	chest smallint(3),

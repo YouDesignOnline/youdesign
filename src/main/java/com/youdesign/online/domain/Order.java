@@ -3,12 +3,12 @@ package com.youdesign.online.domain;
 import java.sql.Date;
 import java.sql.Timestamp;
 
-public class Orders {
+public class Order {
 	private long orderId;
 	private long userId;
 	private int itemCode;
 	private int quantity;
-	private int price;
+	private double price;
 	private String size;
 	private int subSize;
 	private Size customSize;
@@ -45,10 +45,10 @@ public class Orders {
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
-	public int getPrice() {
+	public double getPrice() {
 		return price;
 	}
-	public void setPrice(int price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 	public String getSize() {

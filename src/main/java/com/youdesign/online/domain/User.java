@@ -8,6 +8,7 @@ public class User {
 	private long userid;
 	private String name;
 	private String email;
+	private String password;
 	private long mobileNumber;
 	private Date dateOfBirth;
 	private String facebookId;
@@ -17,6 +18,8 @@ public class User {
 	private String lastPaymentMode;
 	private Timestamp creationTime;
 	private List<String> addressList;
+	
+	
 	public long getUserid() {
 		return userid;
 	}
@@ -88,6 +91,12 @@ public class User {
 	}
 	public void setAddressList(List<String> addressList) {
 		this.addressList = addressList;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 }
